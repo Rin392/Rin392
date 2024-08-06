@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpost" content="width=device-width, initial-scale=1">
+    <title> Liên hệ với chúng tôi | KUZIRA CAFE</title>
+    <link rel="stylesheet" href="css/styleinhome.css">
+</head>
+<body id="#top">
+    <!-- Đầu trang -->
+    <header class="header">
+        <div class="logo">
+            <a href="indexinhome.html"><img src="images/logo.svg" alt="KUZIRA CAFE"></a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="indexinhome.html">Trang chủ</a></li>
+                <li><a href="indexinhome.html#news">Thông báo</a></li>
+                <li><a href="indexinhome.html#shop">Thông tin về cửa hàng</a></li>
+                <li><a href="accessih.html">Thông tin thêm</a></li>
+                <li><a href="menuih.html">Thực đơn</a></li>
+                <li><a href="contactih.html">Liên hệ với chúng tôi</a></li>
+            </ul>
+        </nav>         
+    </header>
+    <!-- Đầu trang đến đây -->
+    <h1 class="hero contactih">Liên hệ với chúng tôi</h1>
+    <!-- Chương trình chính -->
+    <main>
+        <form action="resultih.html">
+            <p>
+                <label for="Lựa chọn">Yêu cầu</label><br>
+                <select name="Lựa chọn" id="Lựa chọn">
+                    <option value="Đặt bàn">Đặt bàn</option>
+                    <option value="Đặt hẹn sự kiện">Đặt hẹn cho sự kiện</option>
+                    <option value="Khác">Khác</option>
+                </select>
+            </p>
+            <p>
+                Chào mừng quý khách đến với cửa hàng!<br>Đây có phải là lần đầu tiên quý khách đến với cửa hàng không?<br>
+                <label><input type="radio" name="Quý khách đã từng đến đây chưa?" value="Đúng" checked>Đúng, đây là lần đầu</label><br>
+                <label><input type="radio" name="Quý khách đã từng đến đây chưa?" value="Không" checked>Không, không phải</label>
+            </p>
+            <p>
+                Quý khách biết đến cửa hàng qua đâu?<br>
+                <label><input type="radio" name="Từ đâu bạn biết đến cửa hàng?" value="Bạn bè" checked>Bạn bè, người quen</label><br>
+                <label><input type="radio" name="Từ đâu bạn biết đến cửa hàng?" value="Mạng xã hội" checked>Mạng xã hội (Facebook, Tiktok, Youtube,...)</label>
+            </p>
+            <p>
+                <label for="Nội dung" >Yêu cầu</tabel><br>
+                <input type="text" name="Nội dung" placeholder="Nội dung" id="Nội dung"
+            </p>
+            <p>
+                <label for="Lưu ý">Lưu ý thêm</label><br>
+                <textarea name="Lưu ý" id="Lưu ý"></textarea>
+            </p>
+            <p class="submit">
+                <input type="submit" value="Gửi"
+            </p>
+        </form>
+    </main>
+    <!-- Chương trình chính đến đây -->
+    <!-- Cuối trang -->
+    <footer>
+        <div class="gotop">
+            <a href="#top"><img src="images/gotop.svg" alt="Quay lại đầu trang"></a>
+        </div>
+        <p class="copyright">&copy; KUZIRA CAFE</p>
+    </footer>
+    <!-- Cuối trang đến đây -->
+</body>
+</html>
